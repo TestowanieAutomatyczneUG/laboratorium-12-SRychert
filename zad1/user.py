@@ -22,9 +22,3 @@ class User:
         latitude = self.get_data().get("results")[0].get("location")\
             .get("coordinates").get("latitude")
         return float(latitude) > 0
-
-
-smsm = User()
-print(smsm.get_email())
-print(smsm.get_full_name())
-print(smsm.is_living_on_northern_hemisphere())
