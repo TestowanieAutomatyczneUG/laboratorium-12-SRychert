@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Salman",
+                "last": "Nesvik"
+            },
+            "location": {
+                "street": {
+                    "number": 2667,
+                    "name": "Blokkaveien"
+                },
+                "city": "Nesbyen",
+                "state": "Hordaland",
+                "country": "Norway",
+                "postcode": "5414",
+                "coordinates": {
+                    "latitude": "51.9030",
+                    "longitude": "-173.3051"
+                },
+                "timezone": {
+                    "offset": "-11:00",
+                    "description": "Midway Island, Samoa"
+                }
+            },
+            "email": "salman.nesvik@example.com",
+            "login": {
+                "uuid": "c9141850-747a-4541-ba64-b13cf1eef88e",
+                "username": "happyelephant722",
+                "password": "passwd",
+                "salt": "CqCOuqeU",
+                "md5": "4e1be4ed43561e6fc9180ba8d6c34c59",
+                "sha1": "86b4348bb93a77383bc197a8fb31f1a36b09cdf2",
+                "sha256": "a152b501d5ad5fe71b129b7b66e971b58c5c14ebdfbb9c1e9445feb4bf06b67e"
+            },
+            "dob": {
+                "date": "1948-02-08T11:32:06.463Z",
+                "age": 73
+            },
+            "registered": {
+                "date": "2006-05-27T00:31:04.666Z",
+                "age": 15
+            },
+            "phone": "80899558",
+            "cell": "97504546",
+            "id": {
+                "name": "FN",
+                "value": "08024834124"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/80.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/80.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/80.jpg"
+            },
+            "nat": "NO"
+        }
+    ],
+    "info": {
+        "seed": "a66abe2d0370df6b",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}
