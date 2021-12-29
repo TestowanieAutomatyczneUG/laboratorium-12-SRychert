@@ -18,7 +18,7 @@ class TestMessenger(TestCase):
         self.assertRaises(TypeError, self.temp.send_msg, None, 'Content')
 
     @patch.object(Messenger, "send_msg")
-    def test_send_msg_wrong_type_client(self, mock_send_msg):
+    def test_send_msg_wrong_type_msg(self, mock_send_msg):
         mock_send_msg.side_effect = TypeError
         self.assertRaises(TypeError, self.temp.send_msg, 'client@example.com', None)
 
