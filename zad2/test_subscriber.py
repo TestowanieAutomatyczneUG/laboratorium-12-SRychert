@@ -60,4 +60,3 @@ class SubscriberTest(TestCase):
 
     def tearDown(self) -> None:
         self.temp = None
-        self.mock = None
